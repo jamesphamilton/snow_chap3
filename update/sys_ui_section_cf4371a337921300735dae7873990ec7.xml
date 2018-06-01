@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="cf4371a337921300735dae7873990ec7" sys_domain="global" table="x_89366_snow_cookb_snow_cookbook_chapter_3_table" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-01 00:08:46</sys_created_on>
+            <sys_id>5f43f5a337921300735dae7873990e97</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_89366_snow_cookb_snow_cookbook_chapter_3_table" sys_domain="global" view="Default view">cf4371a337921300735dae7873990ec7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-01 00:08:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_89366_snow_cookb_snow_cookbook_chapter_3_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-01 00:08:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cf4371a337921300735dae7873990ec7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_89366_snow_cookb_snow_cookbook_chapter_3_table</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="SNOW Cookbook Chapter 3" source="x_89366_snow_cookb">2e81fd2f37521300735dae7873990e6d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SNOW Cookbook Chapter 3">2e81fd2f37521300735dae7873990e6d</sys_scope>
+            <sys_update_name>sys_ui_section_cf4371a337921300735dae7873990ec7</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-01 00:08:45</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

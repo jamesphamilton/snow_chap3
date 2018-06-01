@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_89366_snow_cookb.Chapter3Lib</api_name>
+        <client_callable>true</client_callable>
+        <description>Shared library for Chapter 3 App</description>
+        <name>Chapter3Lib</name>
+        <script><![CDATA[var Chapter3Lib = Class.create();
+Chapter3Lib.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    type: 'Chapter3Lib',
+	
+	calculateDueDate: function() {
+		var now = new GlideDateTime();
+		now.addDaysLocalTime(7);
+		return now;
+	},
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-01 01:04:22</sys_created_on>
+        <sys_id>398f71ab37921300735dae7873990eb5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Chapter3Lib</sys_name>
+        <sys_package display_value="SNOW Cookbook Chapter 3" source="x_89366_snow_cookb">2e81fd2f37521300735dae7873990e6d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="SNOW Cookbook Chapter 3">2e81fd2f37521300735dae7873990e6d</sys_scope>
+        <sys_update_name>sys_script_include_398f71ab37921300735dae7873990eb5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-01 01:04:22</sys_updated_on>
+    </sys_script_include>
+</record_update>
